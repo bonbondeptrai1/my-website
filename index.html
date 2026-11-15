@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b18">
+  <meta name="description" content="Trang cá nhân — kết nối với tôi qua các mạng xã hội.">
+  <title>Trang cá nhân của bạn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="aurora aurora-a"></div><div class="aurora aurora-b"></div>
+  <main class="page">
+    <section class="profile glass">
+      <div class="avatar-wrap">
+        <!-- Thay avatar.jpg bằng ảnh của bạn -->
+        <img class="avatar" src="avatar.jpg" alt="Ảnh đại diện" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+        <div class="avatar-fallback">✨</div>
+        <span class="online" title="Đang hoạt động"></span>
+      </div>
+      <p class="eyebrow">WELCOME TO MY SPACE</p>
+      <h1>Xin chào, mình là <span class="gradient">Tên của bạn</span></h1>
+      <p class="bio">Một vài dòng giới thiệu về bạn. Hãy thay nội dung này bằng câu chuyện của riêng mình.</p>
+      <div class="badges"><span>🎨 Creator</span><span>💻 Developer</span><span>🌏 Vietnam</span></div>
+    </section>
+
+    <section class="section">
+      <h2><span class="dot"></span> Kết nối với mình</h2>
+      <div class="links">
+        <a class="link-card" href="https://facebook.com/" target="_blank" rel="noopener"><span class="link-icon fb">f</span><span><b>Facebook</b><small>Theo dõi mình trên Facebook</small></span><span class="arrow">↗</span></a>
+        <a class="link-card" href="https://zalo.me/" target="_blank" rel="noopener"><span class="link-icon zalo">Z</span><span><b>Zalo</b><small>Nhắn tin trực tiếp</small></span><span class="arrow">↗</span></a>
+        <a class="link-card" href="https://tiktok.com/" target="_blank" rel="noopener"><span class="link-icon tt">♪</span><span><b>TikTok</b><small>Xem video mới nhất</small></span><span class="arrow">↗</span></a>
+        <a class="link-card" href="https://youtube.com/" target="_blank" rel="noopener"><span class="link-icon yt">▶</span><span><b>YouTube</b><small>Video và nội dung của mình</small></span><span class="arrow">↗</span></a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2><span class="dot"></span> Ủng hộ mình ☕</h2>
+      <div class="donate glass">
+        <div><b>Nếu bạn thích những gì mình làm</b><p>Có thể gửi một lời động viên hoặc ủng hộ mình nhé 💜</p></div>
+        <button id="donateBtn" class="primary">💝 Donate</button>
+        <div id="donateInfo" class="donate-info" hidden>
+          <p>Thêm thông tin ngân hàng / mã QR của bạn tại đây.</p>
+          <!-- Ví dụ: <img src="qr.png" alt="QR nhận donate"> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2><span class="dot"></span> Dự án & cộng đồng</h2>
+      <a class="link-card" href="#" target="_blank" rel="noopener"><span class="link-icon project">✦</span><span><b>Dự án của mình</b><small>Khám phá những sản phẩm mình đang xây dựng</small></span><span class="arrow">↗</span></a>
+      <a class="link-card" href="#" target="_blank" rel="noopener"><span class="link-icon community">👥</span><span><b>Cộng đồng</b><small>Cùng tham gia và giao lưu nhé</small></span><span class="arrow">↗</span></a>
+    </section>
+
+    <footer>Made with <span>♥</span> by <b>Tên của bạn</b> · <span id="year"></span></footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
